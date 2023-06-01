@@ -1,13 +1,13 @@
 <template>
-    <section class="py-2">
+    <section class="py">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 py-5 d-none d-md-block">
-                    <img src="@/image/logo.png" alt="Logo" class="img-fluid" />
+                    <img src="@/image/logo.png" alt="Logo" class="img-fluid" style="height: 90vh; width: 1200px"  />
                 </div>
                 <div class="col-md-6 align-self-center">
                     <div class="login">
-                        <div class="card p-2" style="width: 400px;">
+                        <div class="card" style="height: 60vh; width: 500px"  >
                     <h3 class=" text-center mb-4">Log In</h3>
                             <div class="container">
                                 <form>
