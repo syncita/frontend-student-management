@@ -2,6 +2,7 @@
     <div class="dashboard">
       <div class="sidebar">
         <ul>
+            <img src="@/image/student.png" alt="student" style="height: 80px;">
           <li><a href="#">Home</a></li>
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Reports</a></li>
@@ -25,7 +26,7 @@
     },
     methods: {
       changePageTitle() {
-        this.pageTitle = 'New Page Title';
+        this.pageTitle = 'Student Dashboard';
       }
     }
   }
@@ -38,6 +39,7 @@
   
   .sidebar {
     width: 200px;
+    height: 600px;
     background: #f0f0f0;
     padding: 20px;
   }
@@ -54,6 +56,9 @@
   .sidebar a {
     text-decoration: none;
     color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:inherit;
+    font-size: 17px;
   }
   
   .main-content {
