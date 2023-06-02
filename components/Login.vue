@@ -27,7 +27,7 @@
                                     </div>
 
                                     <div class="form-group text-center">
-                                        <button class="btn btn-primary btn-block">Log In</button>
+                                       <Nuxt-link to="/dashboard"><button class="btn btn-primary">Login</button></Nuxt-link> 
                                     </div>
                                 </form>
                             </div>
@@ -47,8 +47,18 @@
     </section>
 </template>
   
-<script setup>
+<script >
   // Your script code
+
+  export default {
+  methods: {
+    login() {
+      // Perform login logic here
+      // Redirect to the dashboard using $router.push()
+      this.$router.push('/dashboard')
+    },
+  },
+}
 </script>
   
 <style>
