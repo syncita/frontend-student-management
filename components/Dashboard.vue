@@ -2,7 +2,12 @@
     <div class="dashboard">
       <div class="sidebar">
         <ul>
-            <img src="@/image/student.png" alt="student" style="height: 80px;">
+            <li>
+          <div class="logo-container">
+            <img src="@/image/student.png" alt="student" class="logo">
+          </div>
+        </li>
+
           <li><a href="#">Home</a></li>
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Reports</a></li>
@@ -65,5 +70,21 @@
     flex: 1;
     padding: 20px;
   }
+
+  .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 20%;
+  border: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 80px;
+  border-radius: 30%;
+}
   </style>
   
